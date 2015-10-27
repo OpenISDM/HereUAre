@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:gravity="center_vertical" >
+
+</CheckedTextView>
+<!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/IBeaconPoC/src/main/res/layout/file_list_item.xml -->

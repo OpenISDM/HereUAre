@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+    //mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.0"
+
+    defaultConfig {
+        applicationId "net.jmodwyer.ibeacon.ibeaconPoC"
+        minSdkVersion 18
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    dependencies {
+        compile 'org.altbeacon:android-beacon-library:2+'
+        // compile 'org.altbeacon:android-beacon-library:2+@aar'
+    }
+    compile project(':googleplayservices_lib')
+    compile files('libs/android-support-v4.jar')
+}

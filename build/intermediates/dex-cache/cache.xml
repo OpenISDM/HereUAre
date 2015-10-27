@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/android-support-v4-9aacd0db9a2e085efb0ffeb59ac0cdb93db60f25.jar" />
+    </item>
+    <item
+        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/jars/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/google-play-services-e4990d24710ca9706c90478c1a63cbe4962290e2.jar" />
+    </item>
+    <item
+        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="6d3728cf62d53de7395707c000051735ea8c298c">
+        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-8ab022f1cd06889dfaeb15826f16ea240619e614.jar" />
+    </item>
+    <item
+        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="bc837b9e599b041fc7598a3d12fa58af9bde2143">
+        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-11436e872faacf798ff5ecba7b04d26a5fcbb243.jar" />
+    </item>
+
+</items>
