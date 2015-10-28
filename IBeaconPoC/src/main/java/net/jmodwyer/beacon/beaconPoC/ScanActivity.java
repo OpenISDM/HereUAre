@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.hardware.GeomagneticField;
 import android.hardware.Sensor;
 import android.hardware.SensorListener;
@@ -69,10 +70,12 @@ import com.google.android.gms.maps.model.CameraPosition;
 //import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import com.mapbox.mapboxsdk.overlay.GeoJSONPainter;
-import com.mapbox.mapboxsdk.overlay.Icon;
-import com.mapbox.mapboxsdk.overlay.Marker;
-import com.mapbox.mapboxsdk.tileprovider.tilesource.MapboxTileLayer;
+//import com.mapbox.mapboxsdk.overlay.GeoJSONPainter;
+//import com.mapbox.mapboxsdk.overlay.Icon;
+//import com.mapbox.mapboxsdk.overlay.Marker;
+//import com.mapbox.mapboxsdk.tileprovider.tilesource.MapboxTileLayer;
+import com.mapbox.mapboxsdk.annotations.PolylineOptions;
+import com.mapbox.mapboxsdk.constants.Style;
 import com.mapbox.mapboxsdk.views.MapView;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 
@@ -182,11 +185,11 @@ public class ScanActivity extends Activity implements BeaconConsumer,
 //        map.getUiSettings().setMyLocationButtonEnabled(true);
 
         /**
-         * MapboxView 0.7.4
+         * MapboxView 2.1
          */
         mMapboxView = (com.mapbox.mapboxsdk.views.MapView) findViewById(R.id.mapview);
-//        setMapView();
-
+        setMapView();
+        mMapboxView.onCreate(savedInstanceState);
         /**
          * Android SensorManager
          */
@@ -240,40 +243,14 @@ public class ScanActivity extends Activity implements BeaconConsumer,
 
     private void setMapView() {
 
-        mMapboxView.setCenter(new LatLng(25.03700, 121.563000));
+        mMapboxView.setStyleUrl(Style.LIGHT);
+        mMapboxView.setCenterCoordinate(new LatLng(25.04129, 121.6152));
+        mMapboxView.setZoomLevel(18);
+        mMapboxView.setAccessToken("pk.eyJ1IjoiYm9va2phbiIsImEiOiJjaWV1MHRzcnYwZXA2bGVtMHM2aHU4NTkxIn0.v4UuMNZfBTmWrCy0B1zgug");
 
-        mMapboxView.setUserLocationRequiredZoom(14);
-        mMapboxView.setTileSource(new MapboxTileLayer("mapbox.streets"));
-        mMapboxView.setMinZoomLevel(mMapboxView.getTileProvider().getMinimumZoomLevel());
-        mMapboxView.setMaxZoomLevel(mMapboxView.getTileProvider().getMaximumZoomLevel());
-        mMapboxView.setCenter(mMapboxView.getTileProvider().getCenterCoordinate());
-        mMapboxView.setZoom(1);
-        mMapboxView.setUserLocationEnabled(true);
-        mMapboxView.loadFromGeoJSONURL("https://gist.github.com/bookjan/d7de00cdbb735bf092e1/raw/c48df967aa3c181a8eff08b035e2832c9f9bce6b/geojson");
-
-        Marker m = new Marker(mMapboxView, "Taipei City Hall", "Taipei", new LatLng(25.037464, 121.563811));
-        m.setIcon(new Icon(this, Icon.Size.LARGE, "marker-stroked", "ee8a65"));
-        mMapboxView.addMarker(m);
+        new DrawGeoJSON().execute();
     }
 
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        beaconManager.bind(this);
-        mSensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME);
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        mSensorManager.unregisterListener(this);
-        // Uncommenting the following leak prevents a ServiceConnection leak when using the back
-        // arrow in the Action Bar to come out of the file list screen. Unfortunately it also kills
-        // background scanning, and as I have no workaround right now I'm settling for the lesser of
-        // two evils.
-        // beaconManager.unbind(this);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -699,6 +676,7 @@ public class ScanActivity extends Activity implements BeaconConsumer,
         super.onStart();
         // Connect the client.
         mlocationClient.connect();
+        mMapboxView.onStart();
     }
 
     @Override
@@ -706,6 +684,34 @@ public class ScanActivity extends Activity implements BeaconConsumer,
         // Disconnect the client.
         mlocationClient.disconnect();
         super.onStop();
+        mMapboxView.onStop();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        beaconManager.bind(this);
+        mSensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME);
+        mMapboxView.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mSensorManager.unregisterListener(this);
+        mMapboxView.onPause();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mMapboxView.onDestroy();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mMapboxView.onSaveInstanceState(outState);
     }
 
     @Override
@@ -858,6 +864,7 @@ public class ScanActivity extends Activity implements BeaconConsumer,
                     sb.append((char) cp);
                 }
 
+                Log.i("DrawGeoJSON","1");
                 inputStream.close();
 
                 // Parse JSON
@@ -894,11 +901,13 @@ public class ScanActivity extends Activity implements BeaconConsumer,
             if (points.size() > 0) {
                 LatLng[] pointsArray = points.toArray(new LatLng[points.size()]);
 
+                Log.i("DrawGeoJSON","2");
+                Log.i("DrawGeoJSON", points.toString());
                 // Draw Points on MapView
-//                mapView.addPolyline(new PolylineOptions()
-//                        .add(pointsArray)
-//                        .color(Color.parseColor("#3bb2d0"))
-//                        .width(2));
+                mMapboxView.addPolyline(new PolylineOptions()
+                        .add(pointsArray)
+                        .color(Color.parseColor("#3bb2d0"))
+                        .width(2));
             }
         }
     }

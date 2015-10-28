@@ -48,7 +48,7 @@
         <!--android:id="@+id/scanText"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent"-->
-        <!--android:autoText="false"-->
+        <!--android:autoText="false"-->z
         <!--android:ems="10"-->
         <!--android:focusable="false"-->
         <!--android:focusableInTouchMode="false"-->
@@ -69,8 +69,8 @@
     <com.mapbox.mapboxsdk.views.MapView
             android:id="@+id/mapview"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            mapbox:mapid="bookjan.np26dob9"
-            mapbox:accessToken="pk.eyJ1IjoiYm9va2phbiIsImEiOiJjaWV1MHRzcnYwZXA2bGVtMHM2aHU4NTkxIn0.v4UuMNZfBTmWrCy0B1zgug"/>
+            android:layout_height="fill_parent"/>
+            <!--mapbox:mapid="bookjan.np26dob9"-->
+            <!--mapbox:accessToken="pk.eyJ1IjoiYm9va2phbiIsImEiOiJjaWV1MHRzcnYwZXA2bGVtMHM2aHU4NTkxIn0.v4UuMNZfBTmWrCy0B1zgug"/>-->
 
 </RelativeLayout><!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/res/layout/activity_scan.xml -->

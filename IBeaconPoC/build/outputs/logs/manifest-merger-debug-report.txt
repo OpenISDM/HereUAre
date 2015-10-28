@@ -55,7 +55,7 @@ MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/JanSu/Deskt
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:mediarouter-v7:22.2.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-drive:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
@@ -151,7 +151,11 @@ MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/JanSu/Deskt
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:0.7.4] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/0.7.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:2.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.0.1] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/design/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/AndroidManifest.xml:9:9-38
@@ -176,6 +180,7 @@ MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/JanSu/
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-wallet:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:2.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/2.1.0/AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/AndroidManifest.xml:10:22-64
 uses-permission#android.permission.BLUETOOTH
@@ -213,6 +218,7 @@ MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /Users/JanSu/
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/AndroidManifest.xml:19:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:5-78
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:2.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/2.1.0/AndroidManifest.xml:14:5-79
 	android:name
 		ADDED from /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/AndroidManifest.xml:16:22-76
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
@@ -230,6 +236,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/JanSu/Deskt
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
 MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:2.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/2.1.0/AndroidManifest.xml:9:5-11:35
 	android:required
 		ADDED from /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/AndroidManifest.xml:25:9-32
 	android:glEsVersion
@@ -270,7 +277,7 @@ MERGED from [com.google.android.gms:play-services-cast:8.1.0] /Users/JanSu/Deskt
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:mediarouter-v7:22.2.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-drive:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
@@ -344,7 +351,10 @@ MERGED from [com.google.android.gms:play-services-wearable:8.1.0] /Users/JanSu/D
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:0.7.4] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/0.7.4/AndroidManifest.xml:9:5-47
+MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.0.1] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/design/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/AndroidManifest.xml:34:9-41

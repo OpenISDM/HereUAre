@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:textColor="@android:color/white"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall" />
+<!-- From: file:/Users/brad/development/mapbox-gl-android/android/java/MapboxGLAndroidSDK/src/main/res/layout/attribution_list_item.xml --><!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/2.1.0/res/layout/attribution_list_item.xml -->
