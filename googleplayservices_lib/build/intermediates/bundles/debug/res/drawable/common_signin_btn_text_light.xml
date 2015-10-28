@@ -16,4 +16,4 @@
     <item
         android:drawable="@drawable/common_signin_btn_text_normal_light" />
 </selector>
-<!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/googleplayservices_lib/src/main/res/drawable/common_signin_btn_text_light.xml -->
+<!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/googleplayservices_lib/src/main/res/drawable/common_signin_btn_text_light.xml -->

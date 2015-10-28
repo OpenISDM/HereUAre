@@ -7,4 +7,4 @@
     <item android:state_selected="true" android:color="@color/wallet_bright_foreground_holo_light"/>
     <item android:color="@color/wallet_bright_foreground_holo_light"/> <!-- not selected -->
 </selector>
-<!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/googleplayservices_lib/src/main/res/color/wallet_primary_text_holo_light.xml --><!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/res/color/wallet_primary_text_holo_light.xml -->
+<!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/res/color/wallet_primary_text_holo_light.xml -->

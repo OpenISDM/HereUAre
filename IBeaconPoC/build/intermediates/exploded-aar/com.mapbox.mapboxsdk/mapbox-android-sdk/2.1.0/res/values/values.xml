@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/brad/development/mapbox-gl-android/android/java/MapboxGLAndroidSDK/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <array formatted="false" name="attribution_links" translatable="false">
+        <item>https://www.mapbox.com/about/maps/</item>
+        <item>http://www.openstreetmap.org/about/</item>
+        <item>https://www.mapbox.com/map-feedback/#/%1$f/%2$f/%3$d</item>
+    </array>
+    <array name="attribution_names">
+        <item>© Mapbox</item>
+        <item>© OpenStreetMap</item>
+        <item>Improve this map</item>
+    </array>
+    <!-- From: file:/Users/brad/development/mapbox-gl-android/android/java/MapboxGLAndroidSDK/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="mapbox_blue">#1E8CAB</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="MapView"><attr format="float" name="centerLongitude"/><attr format="float" name="centerLatitude"/><attr format="float" name="zoomLevel"/><attr format="float" name="direction"/><attr format="boolean" name="zoomEnabled"/><attr format="boolean" name="scrollEnabled"/><attr format="boolean" name="rotateEnabled"/><attr format="boolean" name="debugActive"/><attr format="string" name="styleUrl"/><attr format="string" name="accessToken"/><attr format="string" name="styleClasses"/><attr format="boolean" name="myLocationEnabled"/><attr format="boolean" name="compassEnabled"/><attr name="compassGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="dimension" name="compassMarginLeft"/><attr format="dimension" name="compassMarginTop"/><attr format="dimension" name="compassMarginRight"/><attr format="dimension" name="compassMarginBottom"/><attr name="logoGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="dimension" name="logoMarginLeft"/><attr format="dimension" name="logoMarginTop"/><attr format="dimension" name="logoMarginRight"/><attr format="dimension" name="logoMarginBottom"/><attr format="integer" name="logoVisibility"/><attr name="attributionGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="dimension" name="attributionMarginLeft"/><attr format="dimension" name="attributionMarginTop"/><attr format="dimension" name="attributionMarginRight"/><attr format="dimension" name="attributionMarginBottom"/><attr format="integer" name="attributionVisibility"/></declare-styleable>
+    <!-- From: file:/Users/brad/development/mapbox-gl-android/android/java/MapboxGLAndroidSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="infowindow_margin">8dp</dimen>
+    <dimen name="infowindow_tipview_width">16dp</dimen>
+    <!-- From: file:/Users/brad/development/mapbox-gl-android/android/java/MapboxGLAndroidSDK/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="attributionsDialogTitle">Mapbox Android SDK</string>
+    <string name="attributionsIconContentDescription">Attribution icon. Click to show attribution dialog.</string>
+    <string name="compassContentDescription">Map compass. Click to reset the map rotation to North.</string>
+    <string name="infoWindowAddress">Address</string>
+    <string name="infoWindowDescription">Description</string>
+    <string name="infoWindowTitle">Title</string>
+    <string name="mapboxIconContentDescription">Mapbox logo.</string>
+    <!-- From: file:/Users/brad/development/mapbox-gl-android/android/java/MapboxGLAndroidSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AttributionAlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:background">@color/mapbox_blue</item>
+    </style>
+</resources>

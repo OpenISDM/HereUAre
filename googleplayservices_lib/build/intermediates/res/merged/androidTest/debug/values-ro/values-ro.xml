@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/googleplayservices_lib/build/intermediates/bundles/debug/res/values-ro/values-ro.xml -->
+    <!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/googleplayservices_lib/build/intermediates/bundles/debug/res/values-ro/values-ro.xml -->
     <eat-comment/>
     <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Activaţi Servicii Google Play"</string>
     <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Această aplicaţie nu va funcţiona decât dacă activaţi Servicii Google Play."</string>

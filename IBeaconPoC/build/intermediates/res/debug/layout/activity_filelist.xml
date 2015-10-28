@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/listview"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" /><!-- From: file:/Users/Jack/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/IBeaconPoC/src/main/res/layout/activity_filelist.xml -->

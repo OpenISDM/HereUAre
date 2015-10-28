@@ -16,4 +16,4 @@
     <item
         android:color="@color/common_signin_btn_light_text_default" />
 </selector>
-<!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/googleplayservices_lib/src/main/res/color/common_signin_btn_text_light.xml --><!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/googleplayservices_lib/build/intermediates/bundles/debug/res/color/common_signin_btn_text_light.xml -->
+<!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/googleplayservices_lib/src/main/res/color/common_signin_btn_text_light.xml --><!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/googleplayservices_lib/build/intermediates/bundles/debug/res/color/common_signin_btn_text_light.xml -->

@@ -2,32 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/libs/android-support-v4.jar"
+        jar="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="21.0.0"
-        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
-        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/android-support-v4-9aacd0db9a2e085efb0ffeb59ac0cdb93db60f25.jar" />
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-3ade9bb0ac6ac39c079c49270cd0af51c26a51d1.jar" />
     </item>
     <item
-        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/jars/libs/google-play-services.jar"
+        jar="/Users/JanSu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.4.0/a0c195f14cefc7597e0bebf22c3e7b43920dcf4/okhttp-urlconnection-2.4.0.jar"
         jumboMode="false"
-        revision="21.0.0"
-        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
-        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/google-play-services-e4990d24710ca9706c90478c1a63cbe4962290e2.jar" />
+        revision="23.0.1"
+        sha1="0a0c195f14cefc7597e0bebf22c3e7b43920dcf4">
+        <dex dex="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.4.0-4c0528a26028aa40b9fbbb7c9716369f05d870e3.jar" />
     </item>
     <item
-        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.6.1/jars/classes.jar"
+        jar="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/0.7.4/jars/classes.jar"
         jumboMode="false"
-        revision="21.0.0"
-        sha1="6d3728cf62d53de7395707c000051735ea8c298c">
-        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-8ab022f1cd06889dfaeb15826f16ea240619e614.jar" />
+        revision="23.0.1"
+        sha1="4bd64ebaab7edb0bccbb031dbdb7b1a7239d58f7">
+        <dex dex="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-232c37e2068713669de4c4ab8594d2b18dac4286.jar" />
     </item>
     <item
-        jar="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/jars/classes.jar"
+        jar="/Users/JanSu/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
-        revision="21.0.0"
-        sha1="bc837b9e599b041fc7598a3d12fa58af9bde2143">
-        <dex dex="/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-11436e872faacf798ff5ecba7b04d26a5fcbb243.jar" />
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/library-2.4.0-97f14c8d71fc714ea3066b9cfeb6c07430f4da6d.jar" />
+    </item>
+    <item
+        jar="/Users/JanSu/.gradle/caches/modules-2/files-2.1/com.vividsolutions/jts/1.13/3ccfb9b60f04d71add996a666ceb8902904fd805/jts-1.13.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3ccfb9b60f04d71add996a666ceb8902904fd805">
+        <dex dex="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/jts-1.13-ddfc6be09eb45e6708b6c477019720b7c2905c4c.jar" />
+    </item>
+    <item
+        jar="/Users/JanSu/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/disklrucache-2.0.2-2e0746dc674296ccfd8eaf1c2363dc0657318391.jar" />
     </item>
 
 </items>

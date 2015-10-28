@@ -9,4 +9,4 @@
           android:title="@string/Settings"
           android:showAsAction="never"/>
 </menu>
-<!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/IBeaconPoC/src/main/res/menu/main_activity_actions.xml -->
+<!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/src/main/res/menu/main_activity_actions.xml -->

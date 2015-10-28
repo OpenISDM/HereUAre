@@ -16,4 +16,4 @@
     <item
         android:drawable="@drawable/common_signin_btn_icon_normal_dark" />
 </selector>
-<!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/googleplayservices_lib/src/main/res/drawable/common_signin_btn_icon_dark.xml --><!-- From: file:/Users/Jake/Downloads/Beacon-Scanner-and-Logger-master/AndroidStudio%20(v1_4%20onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/res/drawable/common_signin_btn_icon_dark.xml -->
+<!-- From: file:/Users/JanSu/Desktop/Development/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable/common_signin_btn_icon_dark.xml -->
